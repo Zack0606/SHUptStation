@@ -1,0 +1,16 @@
+{
+  "movies": [
+    {
+      "img": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500451074.webp",
+      "name": "雷神3",
+      "intro":"失去了雷霆之锤的雷神索尔被囚禁在宇宙另一端的星系中，争分夺秒试图回到阿斯加德，阻止拥有至尊神力的死神海拉发动巨大劫难——诸神的黄昏，摧毁阿斯加德及其所有的文明.",
+      "star":"7.5"
+    },
+    {
+      "img": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2502165084.webp",
+      "name": "东方快车谋杀案",
+      "intro":"大侦探赫尔克里·波洛根据他所观察到的各种可疑迹象以及同车人士的讯问，并结合美国实行的12人陪审团制度等情况进行逻辑推理，成功地揭开了这起奇案的面纱.",
+      "star":"8.3"
+    }
+  ]
+}
