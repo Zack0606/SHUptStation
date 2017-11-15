@@ -6,7 +6,7 @@
     </div> -->
     <navbar></navbar>
     <div id="footer">
-      <span>Copyright © 2017 shuZack. All rights reserved.</span>
+      <span>&copy;Copyright 2017 shuZack. All rights reserved.</span>
     </div>
   </div>
 </template>
