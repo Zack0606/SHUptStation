@@ -21,18 +21,25 @@ export default {
     return {
       activeIndex: "1",
       activeIndex2: "1",
-      searchContent:''
+      searchContent: ""
     };
   },
   methods: {
     handleSelect(key, keyPath) {
       console.log(key, keyPath);
     },
-    search(){
-      this.$message('正在为你查找'+searchContent);
+    search() {
+      const h = this.$createElement;
+      this.$message({
+        message: h("p", null, [
+          h("span", null, "正在为你查找 "),
+          h("i", { style: "color: teal" }, "searchContent")//未完成
+        ]),
+        duration: 500
+      });
+    }
   }
-}
-}
+};
 </script>
 
 <style>
@@ -50,7 +57,7 @@ export default {
 #brand {
   margin-top: -40px;
   float: right;
-  margin-right:20px;
+  margin-right: 20px;
   color: white;
   z-index: 1;
 }
